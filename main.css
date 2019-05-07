@@ -28,7 +28,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin: 0;
-
+    user-select: none;
 }
 .main-header p {
     max-width: 590px;
@@ -37,7 +37,7 @@ body {
     font-size: 15px;
     line-height: 29px;
     text-transform: uppercase;
-
+    user-select: none;
 }
 .scroll {
     display: flex;
