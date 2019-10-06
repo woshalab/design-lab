@@ -1,54 +1,128 @@
-html {
-    font-size: 15px;
-}
-
 body {
     margin: 0;
-    height: 100vh;
-    width: 100vw;
-    font-family: Lato;
+    font-family: Montserrat;
 }
 
 header {
-    height: 100%;
-    background-image: url("assets/img/hero-bg.png");
-    background-size: cover;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo-icon {
-    background-image: url(assets/icon/logo.svg);
-    height: 67px;
-    width: 67px;
-    background-size: contain;
+    background-image: url("assets/img/header.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-size: 100% 500px;
+    height: 500px;
 }
 
-h1 {
-    font-size: 3.6rem;
-    color: white;
+.block-logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 80px;
+}
+
+.header-logo {
+    font-size: 18px;
     font-weight: bold;
-    letter-spacing: 1.6px;
-    line-height: 1.2;
+    margin: 0;
+    color: #60606e;
+}
+
+.menu-hamburger {
+    background-image: url("assets/icon/menu.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 31px;
+    height: 20px;
+}
+
+header h1 {
+    position: absolute;
+    top: 265px;
     text-align: center;
-    margin: 90px 0 50px 0;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #60606e;
+    width: 100%;
+}
+
+header h3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 325px;
+    text-align: center;
+    font-weight: bold;
+    color: #60606e;
+    width: 100%;
+}
+
+.wrap-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px 65px 0;
+    grid-column-gap: 40px;
+
+
+}
+
+.about-us {
+    position: relative;
+
+
+}
+
+.about-us h2{
+    font-size: 34px;
+    font-weight: bold;
+    color: #60606e;
+    text-transform: uppercase;
+
+}
+.green-block-1 {
+    position: absolute;
+    width: 67px;
+    height: 21px;
+    background-color: #7beec7;
+    z-index: -1;
+    top: 45px;
+    left: -5px;
+}
+
+.about-us h4 {
+    font-family: "open sans";
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #60606e;
+    margin-top: -15px;
+    line-height: 30px;
 }
 
 p {
-    font-size: 1rem;
-    color: white;
-    line-height: 29px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #60606e;
+}
+
+.what-we-do {
+    position: relative;
+
+}
+
+.what-we-do h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #60606e;
     text-transform: uppercase;
-    text-align: center;
+
 }
 
-img {
-    position: absolute;
-    bottom: 7.3rem;
+.what-we-do h4 {
+    font-family: "Open sans";
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #60606e;
+    margin-top: -15px;
+    line-height: 30px;
 }
-
